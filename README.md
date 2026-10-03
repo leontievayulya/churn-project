@@ -6,7 +6,7 @@ ML-проект для предсказания оттока клиентов т
 
 **Задача:** бинарная классификация — предсказать, уйдёт ли клиент из телеком-компании.
 
-**Датасет:** [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)  
+**Датасет:** [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 7043 записи, 21 признак, целевая переменная `Churn` (Yes/No).
 
 **Целевая метрика:** ROC-AUC.
@@ -15,16 +15,16 @@ ML-проект для предсказания оттока клиентов т
 
 churn_project/
 ├── data/
-│ ├── raw/ 
-│ └── processed/ 
-├── notebooks/ 
+│ ├── raw/
+│ └── processed/
+├── notebooks/
 ├── src/
 │ └── churn_project/ # Production-код
 │ └── init.py
 ├── tests/ # Тесты
 ├── .gitignore
 ├── .pre-commit-config.yaml
-├── pyproject.toml 
+├── pyproject.toml
 └── README.md
 
 
